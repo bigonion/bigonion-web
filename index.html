@@ -39,20 +39,17 @@
   <div class="content">
 
     <!-- Nav Bar -->
-    <div class="navbar" gumby-fixed="top" id="nav3">
+    <div class="navbar" gumby-fixed="top" id="nav">
       <div class="row">
-          <div class="four columns push_eight">
-          <ul>
-            <li><a href="#features">Features</a></li>
-            <li><a href="http://github.com/bigonion" target="_blank"><i class="icon-github"></i></a></li>
-            <li><a href="http://twitter.com/onbigonion" target="_blank"><i class="icon-twitter"></i></a></li>
-<!--             <li>
-              <button class="medium pretty default btn">
-                <a href="#">Sign In</a>
-              </button>
-            </li> -->
-          </ul>
-        </div>
+        <!-- Responsive Menu Widget -->
+        <a class="toggle" gumby-trigger="#nav &gt; div.row &gt; ul" href="#"><i class="icon-menu"></i></a>
+        <ul class="four columns push_eight">
+          <li><a href="#features">Features</a></li>
+          <!-- <li><a href="#features">Documentation</a></li> -->
+          <li><a href="http://github.com/bigonion" target="_blank"><i class="icon-github"></i></a></li>
+          <li><a href="http://twitter.com/onbigonion" target="_blank"><i class="icon-twitter"></i></a></li>
+          <!-- <li><button class="medium pretty default btn"><a href="http://onbigonion.com/signin">Sign In</a></button></li> -->
+        </ul>
       </div>
     </div>
 
@@ -107,45 +104,29 @@
         <div class="four columns">
           <h4>Platform <small>&gt; DevOps</small></h4>
           <hr />
-        </div>
-        <div class="four columns">
-          <h4>Convention <small>&gt; Frustration</small></h4>
-          <hr />
-        </div>
-        <div class="four columns">
-          <h4>Fault Tolerance <small>&gt; Scalability</small></h4>
-          <hr />
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns">
           <p>
             Getting your code from <strong>dev to production</strong> has never been smoother. <code>git push origin big-onion</code> from a <a href="http://zsh.org">zsh</a> prompt is all you need.
           </p>
-        </div>
-        <div class="four columns">
-          <p>
-            Enjoy developing applications again, using a fully integrated (and <strong>highly opinionated</strong>) platform based on the <a href="http://www.chicagoboss.org/" target="_blank">Chicago Boss</a> framework.
-          </p>
-        </div>
-        <div class="four columns">
-          <p>
-            Scalability is easy, but <strong>fault tolerance is what you really want</strong>. Our homogenous app nodes marry each app instance with a <a href="http://basho.com/riak/" target="_blank">Riak</a> node.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns">
           <p>
             We'll <strong>check your tests</strong>, and if everything looks good, update your running instances with your new code. <strong>Easy peasy.</strong>
           </p>
         </div>
         <div class="four columns">
+          <h4>Convention <small>&gt; Frustration</small></h4>
+          <hr />
+          <p>
+            Enjoy developing applications again, using a fully integrated (and <strong>highly opinionated</strong>) platform based on the <a href="http://www.chicagoboss.org/" target="_blank">Chicago Boss</a> framework.
+          </p>
           <p>
             We know <strong>there are other ways to do it</strong>, but we'd rather not spend the time worrying about them.
           </p>
         </div>
         <div class="four columns">
+          <h4>Fault Tolerance <small>&gt; Scalability</small></h4>
+          <hr />
+          <p>
+            Scalability is easy, but <strong>fault tolerance is what you really want</strong>. Our homogenous app nodes marry each app instance with a <a href="http://basho.com/riak/" target="_blank">Riak</a> node.
+          </p>
           <p>
             We'll make sure that your app <strong>continues to serve traffic</strong> and your <strong>data is safe</strong>.
           </p>
@@ -182,7 +163,7 @@
   <script>
     window._gaq = [['_setAccount','UA-42027812-1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+      load: ('https:' == location.protocol ? 'http://ssl' : 'http://www') + '.google-analytics.com/ga.js'
     });
   </script>
 
