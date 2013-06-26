@@ -1,0 +1,123 @@
+body {
+
+}
+
+.content {
+  min-height: 1024px;
+  background-color: #83774A;
+  color: #DDE9AF;
+}
+
+.logo-bar {
+  margin-bottom: 30px;
+}
+.logo-bar hr {
+  border: none;
+  border-top: dotted 4px #D4AA00;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-bar-inner {
+  background-color: #FFCC00;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 5px;
+  min-height: 65px;
+}
+
+.logo-bar-img {
+  min-height: 55px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #DDE9AF;
+  font-weight: bold;
+}
+
+.frontncenter { 
+  margin-bottom: 40px;
+}
+
+.features {
+  background-color: #ABA378;
+  min-height: 100px;
+  /*padding-top: 40px;*/
+  padding-bottom: 40px;
+}
+
+.features h2 {
+  color: #FFCC00;
+}
+
+.features h4 {
+  font-size: 22px;
+}
+
+.features h4 small {
+  font-size: 75%;
+}
+
+.footer {
+  background-color: #442222;
+  min-height: 100px;
+  padding-top: 20px;
+}
+.footer small {
+  font-size: 75%;
+}
+@media all and (min-height: 600px) {
+  .content { min-height: 500px; }
+}
+
+@media all and (min-height: 800px) {
+  .content { min-height: 700px; }
+}
+
+@media all and (min-height: 1000px) {
+  .content { min-height: 900px; }
+}
+
+
+/* extracted from Bootstrap */
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.well-large {
+  padding: 24px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.well-small {
+  padding: 9px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+code {
+  padding: 2px 0px;
+  color: #EBD483;
+  white-space: nowrap;
+  /*background-color: #EBD483;*/
+  border-bottom: 1px dashed #EBD483;
+}
